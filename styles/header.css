@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    background-color: steelblues;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+header > img {
+    flex: 20%;
+    max-width: 300px;
+    float: left
+}
+
+header > h1 {
+    flex: 60%;
+    padding: 10px;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    align-content: flex-start;
+    /* border: solid black 2px; */
+    height: auto;
+}
+
+nav {
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    flex: 20%
+}
