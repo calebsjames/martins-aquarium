@@ -1,22 +1,4 @@
-header {
-    display: flex;
-    background-color: steelblues;
-    padding: 5px;
-    justify-content: space-between;
-}
-
-header > img {
-    flex: 20%;
-    max-width: 300px;
-}
-
-header > h1 {
-    flex: 80%;
-    padding: 10px;
-    text-align: center;
-    /* border: solid black 2px; */
-    height: auto;
-}
+@import "./header.css";
 
 .contentContainer {
     display: flex;
@@ -27,6 +9,7 @@ header > h1 {
 
 .containerLeft {
     padding: 5px;
+    margin: 5px;
     flex: 75%;
     background-color: steelblue;
 }
@@ -46,7 +29,7 @@ header > h1 {
     /* flex: 25%; */
     background-color: white;
     padding: 10px;
-    margin: 20px;
+    margin: 0px 20px 20px 0px;
     width: auto;
     flex-wrap: wrap;
     border: 2px solid black;
@@ -58,12 +41,8 @@ header > h1 {
 .containerLeft__fishList {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: left;
 
-}
-
-nav {
-    padding: 10px;
 }
 
 .sectionHead {
@@ -104,4 +83,16 @@ footer {
     text-align: center;
     justify-content: space-around;
     padding: 25px;
+}
+
+.containerRight > ul {
+    border: black 2px solid;
+    background-color: white;
+    border-radius: 25px;
+    height: auto;
+    /* margin: 13px; */
+}
+
+.containerRight > ul > li {
+    padding: 5px
 }
