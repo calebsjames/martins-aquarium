@@ -28,7 +28,6 @@ header > h1 {
 .containerLeft {
     padding: 5px;
     flex: 75%;
-    flex-direction: column;
     background-color: steelblue;
 }
 
@@ -36,24 +35,35 @@ header > h1 {
     padding: 5px;
     flex: 25%;
     background-color: red;
-    height: auto%;    
+    height: auto;    
 }
 
 .fishCard {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
-    flex: auto;
-    text-align: left;
-    background-color: teal;
-    padding: 5px;
+    align-items: left;
+    border-radius: 25px;
+    /* flex: 25%; */
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    width: auto;
     flex-wrap: wrap;
-    max-width: auto;
-    justify-content: flex-start;
+    border: 2px solid black;
+    
+    /* max-width: auto;
+    justify-content: flex-start; */
 }
 
 .containerLeft__fishList {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+nav {
+    padding: 10px;
 }
 
 .sectionHead {
@@ -65,18 +75,24 @@ header > h1 {
 
 .fishCard > img {
     max-width: 300px;
+    border-radius: 25px;
+    border: 2px solid black
 }
 
 .quoteCard {
     text-align: left;
     background-color: slategray;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid black
 }
 
 .locationCard {
     text-align: left;
     background-color: sienna;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid black
 }
 
 .locationCard > img {
