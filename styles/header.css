@@ -24,9 +24,11 @@ header > h1 {
 }
 
 nav {
-    align-content: center;
+    display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     padding: 10px;
-    flex: 20%
+    flex: 20%;
+    border: black 2px solid;
 }

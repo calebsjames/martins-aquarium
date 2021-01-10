@@ -1,9 +1,14 @@
 @import "./header.css";
 
+
+* {
+    box-sizing: border-box;
+  }
+
 .contentContainer {
     display: flex;
     margin: 5px;
-    background-color: steelblue;
+    background-color: white;
     border: black 2px solid;
 }
 
@@ -18,7 +23,7 @@
     padding: 5px;
     flex: 25%;
     background-color: red;
-    height: auto;    
+    margin: 5px;    
 }
 
 .fishCard {
@@ -55,7 +60,8 @@
 .fishCard > img {
     max-width: 300px;
     border-radius: 25px;
-    border: 2px solid black
+    border: 2px solid black;
+    background-color: black;
 }
 
 .quoteCard {
