@@ -50,6 +50,10 @@
 
 }
 
+.fishList {
+    display: flex;
+}
+
 .sectionHead {
     text-align: center;
     font-weight: bold;
@@ -57,7 +61,7 @@
 }
 
 
-.fishCard > img {
+.fishCard__img {
     max-width: 300px;
     border-radius: 25px;
     border: 2px solid black;
