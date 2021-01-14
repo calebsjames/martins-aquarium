@@ -27,8 +27,8 @@
 }
 
 .fishCard {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    flex-direction: row;
     align-items: left;
     border-radius: 25px;
     /* flex: 25%; */
@@ -53,6 +53,7 @@
 .fishList {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .sectionHead {
@@ -86,16 +87,21 @@
     border: 2px solid black
 }
 
+.locationCards {
+    display: flex;
+}
+
 .locationCard {
     text-align: left;
-    background-color: sienna;
+    background-color: white;
     padding: 10px;
     border-radius: 25px;
     border: 2px solid black
 }
 
-.locationCard > img {
+.locationCard__img {
     max-width: 300px;
+    border-radius: 25px;
 }
 
 footer {
@@ -117,3 +123,6 @@ footer {
     padding: 5px
 }
 
+.contentContainer__travelLocation {
+    display:flex
+}
