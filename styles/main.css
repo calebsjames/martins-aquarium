@@ -34,7 +34,7 @@
     /* flex: 25%; */
     background-color: white;
     padding: 10px;
-    margin: 0px 20px 20px 0px;
+    margin: 0px 0px 20px 0px;
     width: auto;
     flex-wrap: wrap;
     border: 2px solid black;
@@ -52,6 +52,7 @@
 
 .fishList {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .sectionHead {
@@ -70,7 +71,16 @@
 
 .quoteCard {
     text-align: left;
-    background-color: slategray;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 0px 0px 20px 0px;
+}
+
+.quoteCard__box {
+    text-align: left;
+    background-color: white;
     padding: 10px;
     border-radius: 25px;
     border: 2px solid black
@@ -106,3 +116,4 @@ footer {
 .containerRight > ul > li {
     padding: 5px
 }
+
