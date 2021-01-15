@@ -26,3 +26,18 @@ console.log(fishHTMLRepresentations)
         </article>
     `
 }
+
+
+const holyFish = []
+
+for (const fish of fishCollection) {
+    if (fish.length % 3 === 0) {
+        if (holyFish.length === 0) {
+            holyFish += fish.name
+        } else {
+            holyFish += ", " + fish.name
+        }
+    }
+}
+
+console.log(holyFish)
