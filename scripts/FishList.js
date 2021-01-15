@@ -12,6 +12,7 @@ export const FishList = () => {
     const holyFish = mostHolyFish()
     const soldiers = killerFish()
     const normalFish = nonHolyFish()
+    
 
     let holyFishHTMLRepresentation = "<h3>Holy Fish</h3>"
     for (const fish of holyFish) {
@@ -27,16 +28,20 @@ export const FishList = () => {
     for (const fish of normalFish) {
         regularFishHTMLRepresentation += Fish(fish)
     }
-    console.log(regularFishHTMLRepresentation)
+    // console.log(regularFishHTMLRepresentation)
     // Add to the existing HTML in the content element
     contentElement.innerHTML += `
         <article class="fishList">
             <div class="holyCard">
                 ${holyFishHTMLRepresentation}
+            </div>
             <div class="soldierCard">
-                ${soldierFishHTMLRepresentation}
+            ${soldierFishHTMLRepresentation}
+            </div>
+            
             <div class="regularCard">
-                ${regularFishHTMLRepresentation}
+            ${regularFishHTMLRepresentation}
+            </div>
         </article>
     `
 }

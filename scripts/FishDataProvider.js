@@ -75,6 +75,6 @@ export const nonHolyFish = () => {
         if (fish.length % 5 !==0 && fish.length % 3 !==0) {
         normalFish.push(fish)
         }
-        return normalFish
     }
+    return normalFish
 }
