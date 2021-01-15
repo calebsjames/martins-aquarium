@@ -42,6 +42,7 @@ export const useFish = () => {
 }
 
 //export fish whose length is divisable by 3
+
 export const mostHolyFish = () => {
     const holyFish = []
 
@@ -73,7 +74,7 @@ export const killerFish = () => {
     return soldiers
 }
 
-//export fish whose length is divisable by 3
+//export fish whose length is not divisable by 3 or 5
 export const soldierFish = () => {
     const normalFish = []
     
