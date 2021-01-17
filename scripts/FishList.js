@@ -32,15 +32,21 @@ export const FishList = () => {
     // Add to the existing HTML in the content element
     contentElement.innerHTML += `
         <article class="fishList">
-            <div class="holyCard">
-                ${holyFishHTMLRepresentation}
+
+            <div class="cardContainer">
+                <div class="holyCard">
+                    ${holyFishHTMLRepresentation}
+                </div>
             </div>
-            <div class="soldierCard">
-            ${soldierFishHTMLRepresentation}
-            </div>
-            
-            <div class="regularCard">
-            ${regularFishHTMLRepresentation}
+            <div class="cardContainer">
+                <div class="soldierCard">
+                ${soldierFishHTMLRepresentation}
+                </div>
+            </div>    
+            <div class="cardContainer">
+                <div class="regularCard">
+                ${regularFishHTMLRepresentation}
+                </div>
             </div>
         </article>
     `
