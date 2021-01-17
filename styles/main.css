@@ -1,5 +1,8 @@
 @import "./header.css";
 
+main{
+    background-color: b3edff;
+}
 
 * {
     box-sizing: border-box;
@@ -16,14 +19,19 @@
     padding: 5px;
     margin: 5px;
     flex: 75%;
-    background-color: steelblue;
+    background-color: #ccf3ff;
 }
 
 .containerRight {
     padding: 5px;
     flex: 25%;
-    background-color: red;
+    background-color: #ccf3ff
+    ;
     margin: 5px;    
+}
+
+.cardContainer {
+    display: flex;
 }
 
 .fishCard {
@@ -54,6 +62,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .fishList > h3 {
